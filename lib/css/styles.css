@@ -12,8 +12,9 @@
    -webkit-filter: blur(3px) opacity(30%);
 }
 
-.side-nav li {
-   padding: 0;
+/* Helper CSS */
+.mls {
+   margin-left: 1rem;
 }
 
 /* Modify Horizontal padding */
@@ -21,10 +22,14 @@ main .row .col {
    padding: 0 5rem;
 }
 
+/* Remove or modify default styles */
+.side-nav li {
+   padding: 0;
+}
 blockquote {
    margin: 0;
+   padding: 0.5rem 1rem;
 }
-
 .section {
    padding-top: 0;
 }
