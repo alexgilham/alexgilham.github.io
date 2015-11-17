@@ -12,6 +12,9 @@
    -webkit-filter: blur(3px) opacity(30%);
 }
 
+.side-nav li {
+   padding: 0;
+}
 
 /* Offset the content for side nav*/
 header, main, footer {
