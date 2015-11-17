@@ -25,6 +25,10 @@ blockquote {
    margin: 0;
 }
 
+.section {
+   padding-top: 0;
+}
+
 /* Offset the content for side nav*/
 header, main, footer {
     padding-left: 240px;
