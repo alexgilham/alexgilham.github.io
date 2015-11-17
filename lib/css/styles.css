@@ -16,6 +16,15 @@
    padding: 0;
 }
 
+/* Modify Horizontal padding */
+main .row .col {
+   padding: 0 5rem;
+}
+
+blockquote {
+   margin: 0;
+}
+
 /* Offset the content for side nav*/
 header, main, footer {
     padding-left: 240px;
