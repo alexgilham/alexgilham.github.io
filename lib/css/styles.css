@@ -1,9 +1,25 @@
+
+.bg_image {
+   position: fixed;
+   display: block;
+   min-height: 100%;
+   min-width: 100%;
+   background-image: url('../img/CAScience.jpg');
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   z-index: -1;
+   -webkit-filter: blur(3px);
+}
+
+
+/* Offset the content for side nav*/
 header, main, footer {
     padding-left: 240px;
   }
 
-  @media only screen and (max-width : 992px) {
-    header, main, footer {
-      padding-left: 0;
-    }
-  }
+@media only screen and (max-width : 992px) {
+ header, main, footer {
+   padding-left: 0;
+ }
+}
